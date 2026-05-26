@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatCal 数据来源说明</title>
+    <style>
+        body { font-family: -apple-system, "PingFang SC", sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.8; }
+        h1 { color: #3A7CC3; }
+        h2 { color: #555; margin-top: 32px; }
+        .badge { display: inline-block; background: #D9F7F0; border-radius: 8px; padding: 4px 12px; font-size: 13px; color: #333; }
+    </style>
+</head>
+<body>
+    <h1>CatCal 营养数据来源</h1>
+
+    <h2>数据来源</h2>
+    <p>CatCal 的营养分析数据基于 <strong>《中国食物成分表》（第6版）</strong>，这是中国最权威的食物营养数据库。</p>
+
+    <table style="margin:20px 0;">
+        <tr><td style="padding:8px 12px;color:#888;">名称</td><td style="padding:8px 12px;">中国食物成分表（第6版）</td></tr>
+        <tr><td style="padding:8px 12px;color:#888;">发布机构</td><td style="padding:8px 12px;">中国疾病预防控制中心营养与健康所</td></tr>
+        <tr><td style="padding:8px 12px;color:#888;">出版社</td><td style="padding:8px 12px;">北京大学医学出版社</td></tr>
+        <tr><td style="padding:8px 12px;color:#888;">数据条目</td><td style="padding:8px 12px;">5,688 条食物营养数据</td></tr>
+        <tr><td style="padding:8px 12px;color:#888;">数据字段</td><td style="padding:8px 12px;">热量、蛋白质、脂肪、碳水化合物、膳食纤维、钠等</td></tr>
+    </table>
+
+    <h2>引用说明</h2>
+    <p>《中国食物成分表》是中国营养学会推荐的标准食物营养参考数据库，广泛应用于临床营养、公共卫生、食品科学和健康管理领域。</p>
+
+    <h2>数据使用方式</h2>
+    <p>CatCal 通过 RAG（检索增强生成）技术，在用户查询食物时实时检索该数据库中的相关条目，并将其作为 AI 分析模型的参考上下文，从而提供更准确的营养估算结果。</p>
+
+    <h2>相关链接</h2>
+    <ul>
+        <li><a href="https://www.chinanutri.cn/" target="_blank">中国营养学会</a></li>
+        <li><a href="https://www.chinacdc.cn/" target="_blank">中国疾病预防控制中心</a></li>
+    </ul>
+
+    <p style="margin-top:40px;color:#aaa;font-size:13px;">CatCal 不隶属于上述机构。营养数据仅供参考，不构成医疗建议。</p>
+</body>
+</html>
